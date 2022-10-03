@@ -15,7 +15,6 @@ const randomObject = {
 };
 
 function clone(object) {
-    console.log(typeof (function () { }))
     if (typeof object === 'object' && object != null) {
         const cloneobject = Array.isArray(object) ? [] : {};
         for (const key in object) {
